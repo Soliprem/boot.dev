@@ -1,0 +1,9 @@
+The way I understand python slicing is the following:
+@code python
+my_list[ start : stop : step]
+@end
+where the defaults, if a value is omitted, are:
+@code python
+my_list[ 0 : -1 : 1]
+@end
+In a sense, it can actually be interpreted as a subpart of the function to simply call lists: by default, calling the name of a list in a REPL will produce the same deafult behavior
